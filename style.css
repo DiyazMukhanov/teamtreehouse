@@ -1,9 +1,10 @@
 body {
     font-family: 'Oxygen', sans-serif;
-    background-color: lightblue;
+    background-color: white;
     margin: 0;
+    height: 100%;
 }
-
+/* Navbar */
 .navbar {
     position: relative;
     background-color: white;
@@ -35,7 +36,6 @@ body {
     font-size: .8rem;
     text-decoration: none;
     cursor: pointer;
-    
     padding: 4px 8px;
     height: 20px;
     width: auto;
@@ -52,4 +52,135 @@ body {
 .free-trial-link:hover {
     background-color: #003366;
 }
+/* End of Navbar */
 
+/* Section try it */
+.try-it-wrapper {
+    position: relative;
+}
+
+.try-it-image-wrapper {
+    width: 100%;
+    height: 500px ;
+    background-color: #009999;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.try-it-headings {
+width: 100%;
+height: 200px;
+/* border: solid red 1px; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+background: transparent;
+top:120px;
+color: white;
+}
+
+.try-it-first-heading {
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    font-weight: bold;
+}
+
+.try-it-second-heading {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.try-it-third-heading {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 3rem;
+}
+
+.try-it-form {
+    border: solid #999966 .3px;
+    text-align: center;
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    /* transform: translateX(50% 50%); */
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -200px;
+    border-radius: 1rem;
+    background-color: white;
+    /* margin-bottom: 4rem; */
+    /* margin: auto; */
+}
+
+.seven-days-paragraph {
+    background-color: darkslategrey;
+    margin-top: 0;
+    height: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.text-and-button {
+    display: flex;
+    justify-content: center;
+    margin-right: 9rem;
+}
+
+.email-paragraph {
+    /* border: solid red 1px; */
+    margin-left: 3rem;
+    margin-right: 2rem;
+    text-align: left;
+    padding-left: 2rem;
+    color: #001a1a;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.box-label {
+    /* border: solid red 1px; */
+    margin-top: 1rem;
+    color: #001a1a;
+    font-weight: bold;
+}
+
+.try-it-input {
+    /* padding-left: 200px; */
+    width: 300px;
+    margin-right: 1.5rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.try-it-input:hover {
+    border-color: #a3a375;
+}
+
+.try-it-button {
+    /* margin-left: .8rem; */
+    position: absolute;
+    right: 5.3rem;
+    padding: .5rem .5rem .4rem .5rem;
+    width: 8rem;
+    background-color: #009999;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.try-it-button:hover {
+    background-color: #002233;
+}
+
+/* End of Section try it */
